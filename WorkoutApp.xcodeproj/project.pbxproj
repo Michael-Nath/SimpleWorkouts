@@ -23,8 +23,13 @@
 		5A1B6A8B27B10A7D00AFBBA0 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5A1B6A8A27B10A7D00AFBBA0 /* GoogleService-Info.plist */; };
 		5A1B6A8D27B1B23300AFBBA0 /* HomeScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1B6A8C27B1B23300AFBBA0 /* HomeScreenView.swift */; };
 		5A1B6A8F27B1B4FB00AFBBA0 /* GymRat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1B6A8E27B1B4FB00AFBBA0 /* GymRat.swift */; };
-		5A1B6A9127B1B5BA00AFBBA0 /* Workout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1B6A9027B1B5BA00AFBBA0 /* Workout.swift */; };
 		5A1B6A9327B1C83C00AFBBA0 /* NewWorkoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1B6A9227B1C83C00AFBBA0 /* NewWorkoutView.swift */; };
+		5A1B6A9527B1D05100AFBBA0 /* Workout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1B6A9427B1D05100AFBBA0 /* Workout.swift */; };
+		5ABC624F27B1D0A600BE56D7 /* Set.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ABC624E27B1D0A600BE56D7 /* Set.swift */; };
+		5ABC625127B1D88B00BE56D7 /* GymRatViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ABC625027B1D88B00BE56D7 /* GymRatViewModel.swift */; };
+		5ABC625327B1D94800BE56D7 /* WorkoutRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ABC625227B1D94800BE56D7 /* WorkoutRepository.swift */; };
+		5ABC625527B1D97500BE56D7 /* GymRatRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ABC625427B1D97500BE56D7 /* GymRatRepository.swift */; };
+		5AFCE95627B325D100E6438B /* WorkoutViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AFCE95527B325D100E6438B /* WorkoutViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,8 +41,13 @@
 		5A1B6A8A27B10A7D00AFBBA0 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		5A1B6A8C27B1B23300AFBBA0 /* HomeScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenView.swift; sourceTree = "<group>"; };
 		5A1B6A8E27B1B4FB00AFBBA0 /* GymRat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GymRat.swift; sourceTree = "<group>"; };
-		5A1B6A9027B1B5BA00AFBBA0 /* Workout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Workout.swift; sourceTree = "<group>"; };
 		5A1B6A9227B1C83C00AFBBA0 /* NewWorkoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewWorkoutView.swift; sourceTree = "<group>"; };
+		5A1B6A9427B1D05100AFBBA0 /* Workout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Workout.swift; sourceTree = "<group>"; };
+		5ABC624E27B1D0A600BE56D7 /* Set.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Set.swift; sourceTree = "<group>"; };
+		5ABC625027B1D88B00BE56D7 /* GymRatViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GymRatViewModel.swift; sourceTree = "<group>"; };
+		5ABC625227B1D94800BE56D7 /* WorkoutRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutRepository.swift; sourceTree = "<group>"; };
+		5ABC625427B1D97500BE56D7 /* GymRatRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GymRatRepository.swift; sourceTree = "<group>"; };
+		5AFCE95527B325D100E6438B /* WorkoutViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,13 +89,11 @@
 		5A1B6A6827B1016900AFBBA0 /* WorkoutApp */ = {
 			isa = PBXGroup;
 			children = (
+				5AFCE95427B3258700E6438B /* Models */,
+				5AFCE95327B3255300E6438B /* Views */,
+				5AFCE95227B3254500E6438B /* ViewModels */,
 				5A1B6A6927B1016900AFBBA0 /* WorkoutAppApp.swift */,
 				5A1B6A8A27B10A7D00AFBBA0 /* GoogleService-Info.plist */,
-				5A1B6A6B27B1016900AFBBA0 /* ContentView.swift */,
-				5A1B6A8E27B1B4FB00AFBBA0 /* GymRat.swift */,
-				5A1B6A9027B1B5BA00AFBBA0 /* Workout.swift */,
-				5A1B6A8C27B1B23300AFBBA0 /* HomeScreenView.swift */,
-				5A1B6A9227B1C83C00AFBBA0 /* NewWorkoutView.swift */,
 				5A1B6A6D27B1016A00AFBBA0 /* Assets.xcassets */,
 				5A1B6A6F27B1016A00AFBBA0 /* Preview Content */,
 			);
@@ -98,6 +106,37 @@
 				5A1B6A7027B1016A00AFBBA0 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5AFCE95227B3254500E6438B /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				5ABC625027B1D88B00BE56D7 /* GymRatViewModel.swift */,
+				5AFCE95527B325D100E6438B /* WorkoutViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		5AFCE95327B3255300E6438B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5A1B6A9227B1C83C00AFBBA0 /* NewWorkoutView.swift */,
+				5A1B6A8C27B1B23300AFBBA0 /* HomeScreenView.swift */,
+				5A1B6A6B27B1016900AFBBA0 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5AFCE95427B3258700E6438B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5ABC625427B1D97500BE56D7 /* GymRatRepository.swift */,
+				5A1B6A8E27B1B4FB00AFBBA0 /* GymRat.swift */,
+				5ABC624E27B1D0A600BE56D7 /* Set.swift */,
+				5A1B6A9427B1D05100AFBBA0 /* Workout.swift */,
+				5ABC625227B1D94800BE56D7 /* WorkoutRepository.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -185,12 +224,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5ABC625127B1D88B00BE56D7 /* GymRatViewModel.swift in Sources */,
 				5A1B6A8D27B1B23300AFBBA0 /* HomeScreenView.swift in Sources */,
 				5A1B6A6C27B1016900AFBBA0 /* ContentView.swift in Sources */,
 				5A1B6A6A27B1016900AFBBA0 /* WorkoutAppApp.swift in Sources */,
+				5ABC625327B1D94800BE56D7 /* WorkoutRepository.swift in Sources */,
+				5ABC624F27B1D0A600BE56D7 /* Set.swift in Sources */,
+				5AFCE95627B325D100E6438B /* WorkoutViewModel.swift in Sources */,
 				5A1B6A9327B1C83C00AFBBA0 /* NewWorkoutView.swift in Sources */,
-				5A1B6A9127B1B5BA00AFBBA0 /* Workout.swift in Sources */,
+				5ABC625527B1D97500BE56D7 /* GymRatRepository.swift in Sources */,
 				5A1B6A8F27B1B4FB00AFBBA0 /* GymRat.swift in Sources */,
+				5A1B6A9527B1D05100AFBBA0 /* Workout.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
